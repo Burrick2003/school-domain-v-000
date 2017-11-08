@@ -12,7 +12,7 @@ def add_student(new_student) #adds [name, grade] to @roster
   if @roster[new_student[1]] == nil
     @roster = {new_student[1] => new_student[0]}
   else
-    
+
   end
 end
 def grade (grade)#returns array of all students in that grade sorted alphabetically

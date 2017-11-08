@@ -13,7 +13,7 @@ def add_student(new_name, grade) #adds [name, grade] to @roster
     roster[grade] = []
   end
   roster[grade] << new_name
-    
+
 end
 def grade (grade)#returns array of all students in that grade sorted alphabetically
 end

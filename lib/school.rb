@@ -9,7 +9,7 @@ attr_accessor :school_name, :roster
 
 
 def add_student(new_student) #adds [name, grade] to @roster
-  if 
+  if
     @roster[new_student[1]] == nil
     @roster = {new_student[1] => new_student[0]}
   else

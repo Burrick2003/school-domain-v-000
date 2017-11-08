@@ -1,7 +1,7 @@
 class School
 @roster = {} #hash of grade hashes, each grade has array of names
 #attr_accessor roster
-def initialize
+def initialize(school_name)
   @roster = {}
 end
 def add_student(new_student) #adds [name, grade] to @roster

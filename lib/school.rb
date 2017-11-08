@@ -8,14 +8,12 @@ attr_accessor :school_name, :roster
 
 
 
-def add_student(new_student) #adds [name, grade] to @roster
-  if
-    roster[:new_student[1]] == nil
-    roster[:new_student[1]] = []
-    roster = {:new_student[1] => [new_student[0]]}
-  else
-    roster[:new_student[1]] << new_student[0]
+def add_student(new_name, grade) #adds [name, grade] to @roster
+  if roster[grade] == nil
+    roster[grade] = []
   end
+  roster[grade] << new_name
+    
 end
 def grade (grade)#returns array of all students in that grade sorted alphabetically
 end

@@ -26,7 +26,7 @@ def sort
 output = {}
   roster.sort.each do |key, element|
     sorted[key] = element
-    
+
 output
 end
 end

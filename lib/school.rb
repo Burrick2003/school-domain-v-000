@@ -24,9 +24,9 @@ end
 #end
 def sort
 output = {}
-  roster.sort.each do |key, element|
-    output << "#{key}=>#{element}"
-  end
+#  roster.sort.each do |key, element|
+    output << roster.sort.each do
+    end
 output
 end
 end

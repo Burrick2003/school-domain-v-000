@@ -1,4 +1,8 @@
 class School
+  def initialize(school_name)
+    @school = school_name
+  end
+  
 ROSTER = {} #hash of grade hashes, each grade has array of names
 #attr_accessor roster
 

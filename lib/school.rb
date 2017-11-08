@@ -24,7 +24,7 @@ end
 #end
 def sort
 output = {}
-  roster.sort.each do |key, element|
+  @roster.sort.each do |key, element|
     output[key] = element.sort
   end
 output

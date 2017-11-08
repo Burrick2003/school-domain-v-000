@@ -17,5 +17,11 @@ end
 def grade (grade)#returns array of all students in that grade sorted alphabetically
   roster[grade].sort
 end
+def sort#oops same as above but the whole roster
+roster.sort.each do |key, element|
+  roster[key].sort
+  
+end
 
+end
 end
